@@ -46,10 +46,10 @@ void proceso(){
 	if(opcion==1){
 		//ejecuta las 5 operaciones
 		resultados[0]=calculadora(1,numeroA,numeroB);
-		resultados[0]=calculadora(2,numeroA,numeroB);
-		resultados[0]=calculadora(3,numeroA,numeroB);
-		resultados[0]=calculadora(4,numeroA,numeroB);
-		resultados[0]=calculadora(5,numeroA,numeroB);
+		resultados[1]=calculadora(2,numeroA,numeroB);
+		resultados[2]=calculadora(3,numeroA,numeroB);
+		resultados[3]=calculadora(4,numeroA,numeroB);
+		resultados[4]=calculadora(5,numeroA,numeroB);
 		
 		//encuentra el mayor y menor de los resultados
 		mayor = menor = resultados[0];
